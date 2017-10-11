@@ -7,8 +7,7 @@ body {
   min-width: 200px;
   margin: 0 auto;
   padding: 20px;
-
-  -ms-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   color: #fff;
   overflow: hidden;
@@ -19,7 +18,9 @@ body {
 }
 
 .markdown-body a {
-  background: transparent;;word-wrap: break-word; word-break: break-all;
+  background: transparent;;
+  word-wrap: break-word;
+  word-break: break-all;
 }
 
 .markdown-body a:active,
@@ -42,7 +43,7 @@ body {
 
 .markdown-body hr {
   -moz-box-sizing: content-box;
-  box-sizing: content-box;
+       box-sizing: content-box;
   height: 0;
 }
 
@@ -73,7 +74,7 @@ body {
 
 .markdown-body input[type="checkbox"] {
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
+       box-sizing: border-box;
   padding: 0;
 }
 
@@ -89,7 +90,7 @@ body {
 
 .markdown-body * {
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
+       box-sizing: border-box;
 }
 
 .markdown-body input {
@@ -202,7 +203,7 @@ body {
 .markdown-body kbd {
   background-color: #e7e7e7;
   background-image: -webkit-linear-gradient(#fefefe, #e7e7e7);
-  background-image: linear-gradient(#fefefe, #e7e7e7);
+  background-image:         linear-gradient(#fefefe, #e7e7e7);
   background-repeat: repeat-x;
   border-radius: 2px;
   border: 1px solid #cfcfcf;
@@ -213,11 +214,11 @@ body {
   display: inline-block;
 }
 
-.markdown-body>*:first-child {
+.markdown-body > *:first-child {
   margin-top: 0 !important;
 }
 
-.markdown-body>*:last-child {
+.markdown-body > *:last-child {
   margin-bottom: 0 !important;
 }
 
@@ -346,7 +347,7 @@ body {
   margin-bottom: 0;
 }
 
-.markdown-body li>p {
+.markdown-body li > p {
   margin-top: 16px;
 }
 
@@ -373,11 +374,11 @@ body {
   border-left: 4px solid #ddd;
 }
 
-.markdown-body blockquote>:first-child {
+.markdown-body blockquote > :first-child {
   margin-top: 0;
 }
 
-.markdown-body blockquote>:last-child {
+.markdown-body blockquote > :last-child {
   margin-bottom: 0;
 }
 
@@ -410,7 +411,7 @@ body {
 .markdown-body img {
   max-width: 100%;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
+       box-sizing: border-box;
 }
 
 .markdown-body code {
@@ -429,7 +430,7 @@ body {
   content: "\00a0";
 }
 
-.markdown-body pre>code {
+.markdown-body pre > code {
   padding: 0;
   margin: 0;
   font-size: 100%;
@@ -478,7 +479,10 @@ body {
 .markdown-body pre code:after {
   content: normal;
 }
-table td{ word-wrap: break-word !important; word-break: break-all !important; }
+table td {
+  word-wrap: break-word !important;
+  word-break: break-all !important;
+}
 .markdown-body .highlight {
   background: #fff;
 }
@@ -550,7 +554,7 @@ table td{ word-wrap: break-word !important; word-break: break-all !important; }
 }
 
 .markdown-body .highlight .nb {
-  color: #0086B3;
+  color: #0086b3;
 }
 
 .markdown-body .highlight .nc {
@@ -567,7 +571,7 @@ table td{ word-wrap: break-word !important; word-break: break-all !important; }
 }
 
 .markdown-body .highlight .ne {
-  color: #990000;
+  color: #900;
   font-weight: bold;
 }
 
@@ -604,7 +608,7 @@ table td{ word-wrap: break-word !important; word-break: break-all !important; }
 }
 
 .markdown-body .highlight .gr {
-  color: #aa0000;
+  color: #a00;
 }
 
 .markdown-body .highlight .gh {
@@ -612,7 +616,7 @@ table td{ word-wrap: break-word !important; word-break: break-all !important; }
 }
 
 .markdown-body .highlight .gi {
-  color: #00ff00;
+  color: #0f0;
   background-color: #dfd;
 }
 
@@ -639,7 +643,7 @@ table td{ word-wrap: break-word !important; word-break: break-all !important; }
 }
 
 .markdown-body .highlight .gt {
-  color: #aa0000;
+  color: #a00;
 }
 
 .markdown-body .highlight .ow {
@@ -664,7 +668,7 @@ table td{ word-wrap: break-word !important; word-break: break-all !important; }
 
 .markdown-body .highlight .gc {
   color: #999;
-  background-color: #EAF2F5;
+  background-color: #eaf2f5;
 }
 
 .markdown-body .octicon {
@@ -675,20 +679,20 @@ table td{ word-wrap: break-word !important; word-break: break-all !important; }
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .markdown-body .octicon-link:before {
-  content: '\f05c';
+  content: "\f05c";
 }
 
 .markdown-body .task-list-item {
   list-style-type: none;
 }
 
-.markdown-body .task-list-item+.task-list-item {
+.markdown-body .task-list-item + .task-list-item {
   margin-top: 3px;
 }
 
@@ -821,4 +825,3 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 .hljs-chunk {
   color: #aaa;
 }
-

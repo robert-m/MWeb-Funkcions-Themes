@@ -9,27 +9,27 @@ background: 1c2225
 
 H1
 foreground: e06c75
-font-style: bold
+font-size: 24px
 
 H2
 foreground: e06c75
-font-style: bold
+font-size: 20px
 
 H3
 foreground: e06c75
-font-style: bold
+font-size: 17px
 
 H4
 foreground: e06c75
-font-style: bold
+font-size: 15px
 
 H5
 foreground: e06c75
-font-style: bold
+font-size: 13px
 
 H6
 foreground: e06c75
-font-style: bold
+font-size: 11px
 
 EMPH
 foreground: ffcc66
@@ -49,10 +49,10 @@ LIST_ENUMERATOR
 foreground: d19a66
 
 LINK
-foreground: 98c379
+foreground: 61afef
 
 AUTO_LINK_URL
-foreground: 98c379
+foreground: 56b6c2
 
 AUTO_LINK_EMAIL
 foreground: 98c379
@@ -64,7 +64,7 @@ IMAGE
 foreground: cc99cc
 
 CODE
-foreground: 999999
+foreground: 98c379
 
 VERBATIM
 foreground: 999999
@@ -74,6 +74,7 @@ foreground: cc99cc
 
 COMMENT
 foreground: 5c6970
+font-style: italic
 
 BLOCKQUOTE
 foreground: f2777a
